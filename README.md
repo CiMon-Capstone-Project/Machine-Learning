@@ -5,6 +5,7 @@ This project focuses on building and saving a Machine Learning model, with the f
 
 ## Project Structure
 ```
+├── assets/                # Folder containing the images of documentation
 ├── dataset/               # Folder containing the dataset used for training, testing, and validation
 ├── saved_model/           # Folder for storing the TFLite model with and without metadata
 ├── README.md              # Documentation for the project
@@ -25,11 +26,12 @@ This project focuses on building and saving a Machine Learning model, with the f
 - Dataset Source: [Link to dataset](https://github.com/CiMon-Capstone-Project/Machine-Learning/blob/main/dataset/link-to-dataset.txt)
 
 ## Here’s a concise explanation of the model architecture
+![image](https://github.com/CiMon-Capstone-Project/Machine-Learning/blob/main/assets/ML_Implementation.drawio.png)
 - Preprocessing
   - Rescaling, adjusts the pixel values (e.g., scaling from [0, 255] to [0, 1]).
   - Normalization, ensures uniform data distribution to optimize training.
 - Convolutional Layers
-  - A series of convolutional layers (5 blocks of conv2d) extract hierarchical features like edges, textures, and patterns.
+  - A series of convolutional layers (6 blocks of conv2d) extract hierarchical features like edges, textures, and patterns.
 - Fully Connected Layers
   - GlobalAveragePooling2D to reduces the spatial dimensions, converting feature maps into vectors.
   - Dense Layers to learn complex relationships between features.
