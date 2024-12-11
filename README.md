@@ -28,7 +28,7 @@ This project focuses on building and saving a Machine Learning model, with the f
 ## Here’s a concise explanation of the model architecture
 ![image](https://github.com/CiMon-Capstone-Project/Machine-Learning/blob/main/assets/ML_Implementation.drawio.png)
 - Preprocessing
-  - Rescaling, adjusts the pixel values (e.g., scaling from [0, 255] to [0, 1]).
+  - Rescaling, adjusts the pixel values (scaling from [0, 255] to [0, 1]).
   - Normalization, ensures uniform data distribution to optimize training.
 - Convolutional Layers
   - A series of convolutional layers (6 blocks of conv2d) extract hierarchical features like edges, textures, and patterns.
